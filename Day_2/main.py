@@ -31,3 +31,20 @@ print("------------------------------------------------------")
 age = 40
 print(f"I am {age}")
 print("I am {}".format(age))
+
+print("------------------------------------------------------")
+
+s = "hello world"
+
+s = s.upper()
+print(s)
+s = s.capitalize()
+print(s)
+s = s.title()
+print(s)
+
+new_string = s.split()
+print(new_string)
+
+a, b = map(str, new_string)
+print("a = {0}, b = {1}".format(a, b))
